@@ -1,4 +1,11 @@
 {
     "name": "test-repo-c",
-    "private": true
+    "private": true,
+    "dependencies": {
+        "lodash": "latest"
+    },
+    "mondo": {
+      "name": "fancy-pants",
+      "packages": "packages"
+    }
 }
